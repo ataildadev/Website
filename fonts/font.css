@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Aeonik'; 
+    src: local('AEONIK-REGULAR'),
+         local('AEONIK REGULAR'),
+         url('AEONIK-REGULAR.OTF');
+    font-weight: 400;    
+}
+
+@font-face {
+    font-family: 'Aeonik'; 
+    src: local('AEONIK-LIGHT'),
+         local('AEONIK LIGHT'),
+         url('AEONIK-LIGHT.OTF');
+    font-weight: 200;    
+}
+
+@font-face {
+    font-family: 'Aeonik'; 
+    src: local('AEONIK-THIN'),
+         local('AEONIK THIN'),
+         url('AEONIK-THIN.OTF');
+    font-weight: 100;    
+}
+
+
+
+@font-face {
+    font-family: 'Aeonik'; 
+    src: local('AEONIK-MEDIUM'),
+         local('AEONIK MEDIUM'),
+         url('AEONIK-MEDIUM.OTF');
+    font-weight: 500;    
+}
+
+@font-face {
+    font-family: 'Aeonik'; 
+    src: local('AEONIK-BOLD'),
+         local('AEONIK BOLD'),
+         url('AEONIK-BOLD.OTF');
+    font-weight: 700;    
+}
+
+@font-face {
+    font-family: 'Aeonik'; 
+    src: local('AEONIK-BLACK'),
+         local('AEONIK BLACK'),
+         url('AEONIK-BLACK.OTF');
+    font-weight: 800;    
+}
