@@ -1,8 +1,8 @@
 @import 'animate.css';
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
-    font-family: 'Aeonik', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 img{
@@ -75,7 +75,7 @@ footer{
 }
 
 * {
-    font-family: 'Aeonik', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     outline: 0;
@@ -344,9 +344,6 @@ footer{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2){ 
 
-    body{
-      font-size: 'Aeonik';
-    }
 
     header{
       background-position: 20%;
@@ -402,9 +399,6 @@ footer{
       background-position: 20%;
     }
 
-    body{
-      font-size: 'Aeonik';
-    }
 
     h1{
       width: 100% !important;
@@ -459,9 +453,7 @@ footer{
     }
 
 
-    body{
-      font-size: 'Aeonik';
-    }
+
 
     h1{
       width: 100% !important;
@@ -510,9 +502,6 @@ footer{
     background-position: 20%;
   }
 
-  body{
-    font-size: 'Aeonik';
-  }
 
   h1{
     width: 100% !important;
