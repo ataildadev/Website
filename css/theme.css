@@ -344,6 +344,10 @@ footer{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2){ 
 
+    body{
+      font-size: 'Aeonik';
+    }
+
     header{
       background-position: 20%;
     }
@@ -398,6 +402,10 @@ footer{
       background-position: 20%;
     }
 
+    body{
+      font-size: 'Aeonik';
+    }
+
     h1{
       width: 100% !important;
     }
@@ -450,6 +458,11 @@ footer{
       background-position: 20%;
     }
 
+
+    body{
+      font-size: 'Aeonik';
+    }
+
     h1{
       width: 100% !important;
     }
@@ -495,6 +508,10 @@ footer{
 
   header{
     background-position: 20%;
+  }
+
+  body{
+    font-size: 'Aeonik';
   }
 
   h1{
