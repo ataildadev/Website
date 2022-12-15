@@ -51,6 +51,23 @@ a:hover{
     color: #000066;
 }
 
+.download{
+  background-color: rgb(0, 89, 255);
+  color: #f8f9fa;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.download:hover{
+  transition: 0.3s all ease;
+  color: #f8f9fa;
+  background-color: rgb(0, 17, 255);
+}
+
 /* FOOTER */
 
 footer{
