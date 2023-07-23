@@ -557,3 +557,13 @@ footer{
   transition: all ease-in 0.4s;
   box-shadow: 2px 2px 30px #bc00ff, -2px -2px 30px #00ff94;
 }
+
+.D200 a{
+  font-size: 22px;
+}
+
+.D200 a:hover{
+  font-weight: 800;
+  font-style: italic;
+  color: rgb(20, 20, 252);
+}
