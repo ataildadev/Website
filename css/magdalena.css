@@ -1,0 +1,272 @@
+*{
+    font-family: 'Aeonik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #100862;
+}
+
+h3{
+    color: #3e2eeb !important;
+    font-size: 2rem !important;
+
+}
+
+a{
+    font-size: 20px;
+    color: #0c6dfc;
+}
+
+a:hover{
+    transition: all 0.2s ease-in;
+}
+
+#h1-special{
+    color: #fff;
+    font-weight: 700;
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 2rem;
+}
+
+.navbar {
+    background-color: #100862;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 7.5vw;
+    margin-left: 2rem;
+    filter: invert(100%) sepia(23%) saturate(2%) hue-rotate(119deg) brightness(111%) contrast(101%);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 2rem;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Aeonik', sans-serif;
+    font-size: 18px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #100862;
+        width: 100%;
+        padding: 20px;
+        z-index: 1;
+        color: #fff !important;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    
+}
+
+footer{
+    background-color: #f8f9fa;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --background: #e9eef2;
+    --color: #212325;
+    --color-2: #444;
+    --color-3: #666;
+    --transition: all 0.25s ease 0s;
+  }
+  
+  html {
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 465px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  body {
+    background: var(--background);
+  }
+  
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .copyright {
+    padding: 2rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-3);
+    text-align: center;
+    border-top: 1px solid var(--color-3);
+  }
+
+  .col-title{
+    padding-left: 30px;
+  }
+  
+  .footer-nav {
+    padding: 1rem 0;
+  }
+  
+  .footer-nav .col {
+    max-width: 300px;
+  }
+  
+  p.site-decription {
+    color: var(--color-3);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .social-medias a {
+    color: var(--color-2);
+    width: 2.5rem;
+    height: 2em;
+    border: 2px solid var(--color-2);
+    border-radius: 50%;
+  }
+
+
+  
+  .social-medias svg, .social-medias img {
+    vertical-align: middle;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-start {
+    align-items: flex-start;
+  }
+  
+  .flex-jc-start {
+    justify-content: flex-start;
+  }
+  
+  .flex-around {
+    justify-content: space-around;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .flex-g-1 {
+    gap: 1rem;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .col-list ul li {
+    list-style: none;
+  }
+  
+  .col-list ul li a {
+    text-decoration: none;
+    color: var(--color-3);
+    transition: var(--transition);
+  }
+  
+  .col-list ul li a:hover,
+  .col-list ul li a:focus {
+    color: var(--color);
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .footer-nav {
+      flex-direction: column;
+    }
+    
+
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    img{
+      min-width: 100% !important;
+      width: 20vw !important;
+      margin-top: 2rem;
+    }
+
+    .menu-toggle{
+      font-size: 40px;
+      margin-top: 1rem;
+      margin-right: 1.5rem;
+    }
+
+    .nav-links active{
+
+    }
+
+  }
+

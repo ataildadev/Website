@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atailda</title>
+  <link rel="stylesheet" href="css/magdalena.css">
+  <link rel="stylesheet" href="fonts/font.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+  <link rel="shortcut icon" href="img/" type="image/x-icon">
+
+</head>
+<body style="background-color: #100862;">
+
+    <nav class="navbar">
+      <div class="logo">
+          <img src="img/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links">
+          <li><a href="index" style="text-decoration: underline;">Home</a></li>
+          <li><a href="products/armonium">Products</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Staff</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <h3 style="margin-top: 10%; margin-left: 2rem;">WELCOME TO ATAILDA</h3>
+    <h1 id="h1-special">HERE, WE CREATE THE FUTURE OF EDUCATION</h1>
+
+    <a href="projects/index" style="margin-left: 2rem;">Our projects for education →</a>
+
+    <footer style="margin-top: 30%;">
+      <div class="container footerContainer">
+        <div class="footer-nav flex flex-around flex-start flex-g-1">
+          <div class="col flex flex-column flex-start flex-g-1">
+            <span class="logo-holder">
+              <img style="width: 190px;" src="../newimg/logo.png" alt="Atailda Platforms Logo">
+            </span>
+            <p class="site-decription">
+              Atailda Platforms, SAS.. This is the official website.
+            </p>
+            <div class="social-medias flex flex-g-1">
+              <a href="https://facebook.com/armonium_app" class="social-media flex">
+                <img class="" src="../img/facebook.svg">
+              </a>
+              <a href="https://twitter.com/armonium_app" class="social-media flex">
+                <img src="../img/twitter.svg">
+              </a>
+              <a href="https://instagram.com/armonium_app" class="social-media flex">
+                <img src="../img/instagram.svg">
+              </a>
+              <a href="https://github.com/ataildadev" class="social-media flex">
+                <img src="../img/github.svg">
+              </a>
+            </div>
+          </div>
+          <div class="col flex flex-column flex-g-1 flex-start">
+            <h3 class="col-title" style="font-family: 'Aeonik' !important; font-weight: 500;">Company</h3>
+            <nav class="col-list">
+              <ul>
+                <li><a href="../company/leadership">Leadership</a></li>
+                <li><a href="../products/armonium">Products</a></li>
+                <li><a href="../products/armonium">Projects</a></li>
+                <li><a href="../company/index">About Us</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col flex flex-column flex-g-1 flex-start">
+            <h3 class="col-title" style="font-family: 'Aeonik' !important; font-weight: 500;">Resources</h3>
+            <nav class="col-list">
+              <ul>
+                <li><a href="https://github.com/ataildadev">Developers</a></li>
+                <li><a href="https://betahub.netlify.com/">Tools</a></li>
+                <li><a href="https://betahub.netlify.com">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col flex flex-column flex-g-1 flex-start">
+            <h3 class="col-title" style="font-family: 'Aeonik' !important; font-weight: 500;">Legal</h3>
+            <nav class="col-list">
+              <ul>
+                <li><a href="../legal/privacy">Privacy Policy</a></li>
+                <li><a href="../legal/terms">Terms of Use</a></li>
+              </ul>
+            </nav>
+          </div>
+    
+        </div>
+        <div class="copyright">© 2023 Atailda Platforms, SAS. – All Rights Reserved.</div>
+        <center>
+          <br>
+          <img style="width: 8vw;" src="img/SIG_MAKE_IT_ICONIC_LOGO_PARTENARIAT_RVB.png" alt="Proudly made in France.">
+        </center>
+      </div>
+    </footer>
+  
+</body>
+
+<script>
+
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+  }
+
+</script>
+
+</html>
